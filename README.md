@@ -2,8 +2,9 @@
 ◦ Herramienta para testing de carga
 
 ### Código de prueba K6
-![image](https://github.com/user-attachments/assets/b681e885-5557-4925-91dd-8c6cf75060ec)
+![k6_1](https://github.com/user-attachments/assets/ac29cd70-55ba-4351-9fee-6b37a7d01fc2)
+
 
 
 ### Resultados tras ejecutar el test.js
-![image](https://github.com/user-attachments/assets/bb1828f3-7313-40d9-8a9e-082112c28fba)
+![k6_2](https://github.com/user-attachments/assets/0d3c5e90-3b0c-492a-833d-ee1f466d3c28)
