@@ -1,6 +1,9 @@
 import http from 'k6/http';
+import { check } from 'k6';
 
 export default function () {
-  let url = "https://httpbin.test.k6.io/post";
-  let response = http.post(url,"Prueba del grupo 5")
+  let res = http.get('https://test-api.k6.io/public/crocodiles/');
+  check(res, {
+    'status is 200': (r) => r.status === 200,
+  });
 }
